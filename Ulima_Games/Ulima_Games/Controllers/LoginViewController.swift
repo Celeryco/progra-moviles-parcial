@@ -22,27 +22,23 @@ class LoginViewController: UIViewController {
     }
     
     //TODO: Animate Label
-    
     @IBOutlet weak var TextField: UITextField!
     
     @IBAction func loginTapped(_ sender: UIButton) {
-        let mainTabController = storyboard?.instantiateViewController(withIdentifier: "MainTabViewController") as! MainTabViewController
+        let vcd = storyboard?.instantiateViewController(withIdentifier: "MainTabViewController") as! MainTabViewController
         
-        if let name_text = TextField.text{
-            mainTabController.jugador_nombre = name_text
-        }else{
+        if (TextField.text?.isEmpty)! {
             let alert = UIAlertController(title: "Alerta", message: "Debe ingresar un nombre", preferredStyle: UIAlertControllerStyle.alert)
-
-            alert.addAction(UIAlertAction(title: "Click", style: .default, handler: { action in switch action.style{
-                    case .default
-                }
-            }))
-
+            
+            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: {_ in
+                NSLog("The \"OK\" alert occured.")}))
+            
             self.present(alert, animated: true, completion: nil)
-
+        }else{
+            vcd.playerName = TextField.text!
+            present(vcd, animated: true, completion: nil)
         }
-
-        present(mainTabController, animated: true, completion: nil)
+        
     }
     /*
     // MARK: - Navigation

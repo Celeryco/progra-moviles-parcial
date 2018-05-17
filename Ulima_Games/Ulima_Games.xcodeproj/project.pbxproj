@@ -7,17 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0034FB9820ABFA9C005EA8D5 /* BlackjackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FB9720ABFA9C005EA8D5 /* BlackjackViewController.swift */; };
+		0034FB9A20ABFB21005EA8D5 /* BlackjackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FB9920ABFB21005EA8D5 /* BlackjackManager.swift */; };
+		0034FB9C20ABFBFE005EA8D5 /* BlackjackCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FB9B20ABFBFE005EA8D5 /* BlackjackCardModel.swift */; };
+		0034FB9E20ABFC73005EA8D5 /* BlackjackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FB9D20ABFC73005EA8D5 /* BlackjackCardView.swift */; };
+		0034FBA020ABFCC5005EA8D5 /* BlackjackCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0034FB9F20ABFCC5005EA8D5 /* BlackjackCardView.xib */; };
+		0034FBA220AC0B07005EA8D5 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA120AC0B07005EA8D5 /* MainTabViewController.swift */; };
+		0034FBA420AC151C005EA8D5 /* MichiThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA320AC151C005EA8D5 /* MichiThemeModel.swift */; };
+		0034FBA620AC1547005EA8D5 /* MichiPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA520AC1547005EA8D5 /* MichiPlayerModel.swift */; };
+		0034FBA820AC159E005EA8D5 /* MichiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA720AC159E005EA8D5 /* MichiManager.swift */; };
+		0034FBAA20AC178A005EA8D5 /* MichiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA920AC178A005EA8D5 /* MichiViewController.swift */; };
+		0034FBAC20AC2FB9005EA8D5 /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAB20AC2FB9005EA8D5 /* GoViewController.swift */; };
+		0034FBAE20AC32D7005EA8D5 /* GoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */; };
+		0034FBB020AC32FF005EA8D5 /* GoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */; };
 		003F663420A5D2EA00FBA8E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F663320A5D2EA00FBA8E3 /* AppDelegate.swift */; };
 		003F663620A5D2EA00FBA8E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F663520A5D2EA00FBA8E3 /* ViewController.swift */; };
 		003F663920A5D2EA00FBA8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F663720A5D2EA00FBA8E3 /* Main.storyboard */; };
 		003F663B20A5D2F900FBA8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003F663A20A5D2F900FBA8E3 /* Assets.xcassets */; };
 		003F663E20A5D2F900FBA8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F663C20A5D2F900FBA8E3 /* LaunchScreen.storyboard */; };
 		003F664920A5D68F00FBA8E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F664820A5D68F00FBA8E3 /* LoginViewController.swift */; };
-		003F664B20A5D81600FBA8E3 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F664A20A5D81600FBA8E3 /* MainNavigationController.swift */; };
-		003F664D20A5E6EA00FBA8E3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F664C20A5E6EA00FBA8E3 /* MainTabViewController.swift */; };
+		0063EE8A20AC4585002DCC0F /* GoPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063EE8920AC4585002DCC0F /* GoPlayers.swift */; };
+		0063EE8C20AC894A002DCC0F /* GoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063EE8B20AC894A002DCC0F /* GoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0034FB9720ABFA9C005EA8D5 /* BlackjackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackViewController.swift; sourceTree = "<group>"; };
+		0034FB9920ABFB21005EA8D5 /* BlackjackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackManager.swift; sourceTree = "<group>"; };
+		0034FB9B20ABFBFE005EA8D5 /* BlackjackCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackCardModel.swift; sourceTree = "<group>"; };
+		0034FB9D20ABFC73005EA8D5 /* BlackjackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackCardView.swift; sourceTree = "<group>"; };
+		0034FB9F20ABFCC5005EA8D5 /* BlackjackCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlackjackCardView.xib; sourceTree = "<group>"; };
+		0034FBA120AC0B07005EA8D5 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		0034FBA320AC151C005EA8D5 /* MichiThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiThemeModel.swift; sourceTree = "<group>"; };
+		0034FBA520AC1547005EA8D5 /* MichiPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiPlayerModel.swift; sourceTree = "<group>"; };
+		0034FBA720AC159E005EA8D5 /* MichiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiManager.swift; sourceTree = "<group>"; };
+		0034FBA920AC178A005EA8D5 /* MichiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiViewController.swift; sourceTree = "<group>"; };
+		0034FBAB20AC2FB9005EA8D5 /* GoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
+		0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCollectionViewController.swift; sourceTree = "<group>"; };
+		0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCollectionViewCell.swift; sourceTree = "<group>"; };
 		003F663020A5D2EA00FBA8E3 /* Ulima_Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ulima_Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003F663320A5D2EA00FBA8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		003F663520A5D2EA00FBA8E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +52,8 @@
 		003F663D20A5D2F900FBA8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003F663F20A5D2F900FBA8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003F664820A5D68F00FBA8E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		003F664A20A5D81600FBA8E3 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		003F664C20A5E6EA00FBA8E3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		0063EE8920AC4585002DCC0F /* GoPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPlayers.swift; sourceTree = "<group>"; };
+		0063EE8B20AC894A002DCC0F /* GoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +90,14 @@
 				003F664620A5D34C00FBA8E3 /* Models */,
 				003F664520A5D33E00FBA8E3 /* Controllers */,
 				003F663320A5D2EA00FBA8E3 /* AppDelegate.swift */,
+				0034FB9920ABFB21005EA8D5 /* BlackjackManager.swift */,
 				003F663520A5D2EA00FBA8E3 /* ViewController.swift */,
 				003F663720A5D2EA00FBA8E3 /* Main.storyboard */,
 				003F663A20A5D2F900FBA8E3 /* Assets.xcassets */,
 				003F663C20A5D2F900FBA8E3 /* LaunchScreen.storyboard */,
 				003F663F20A5D2F900FBA8E3 /* Info.plist */,
+				0034FBA720AC159E005EA8D5 /* MichiManager.swift */,
+				0063EE8B20AC894A002DCC0F /* GoManager.swift */,
 			);
 			path = Ulima_Games;
 			sourceTree = "<group>";
@@ -77,8 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				003F664820A5D68F00FBA8E3 /* LoginViewController.swift */,
-				003F664A20A5D81600FBA8E3 /* MainNavigationController.swift */,
-				003F664C20A5E6EA00FBA8E3 /* MainTabViewController.swift */,
+				0034FB9720ABFA9C005EA8D5 /* BlackjackViewController.swift */,
+				0034FBA120AC0B07005EA8D5 /* MainTabViewController.swift */,
+				0034FBA920AC178A005EA8D5 /* MichiViewController.swift */,
+				0034FBAB20AC2FB9005EA8D5 /* GoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -86,6 +117,10 @@
 		003F664620A5D34C00FBA8E3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0034FB9B20ABFBFE005EA8D5 /* BlackjackCardModel.swift */,
+				0034FBA320AC151C005EA8D5 /* MichiThemeModel.swift */,
+				0034FBA520AC1547005EA8D5 /* MichiPlayerModel.swift */,
+				0063EE8920AC4585002DCC0F /* GoPlayers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +128,10 @@
 		003F664720A5D35600FBA8E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0034FB9D20ABFC73005EA8D5 /* BlackjackCardView.swift */,
+				0034FB9F20ABFCC5005EA8D5 /* BlackjackCardView.xib */,
+				0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */,
+				0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003F663E20A5D2F900FBA8E3 /* LaunchScreen.storyboard in Resources */,
+				0034FBA020ABFCC5005EA8D5 /* BlackjackCardView.xib in Resources */,
 				003F663B20A5D2F900FBA8E3 /* Assets.xcassets in Resources */,
 				003F663920A5D2EA00FBA8E3 /* Main.storyboard in Resources */,
 			);
@@ -168,11 +208,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003F664D20A5E6EA00FBA8E3 /* MainTabViewController.swift in Sources */,
 				003F664920A5D68F00FBA8E3 /* LoginViewController.swift in Sources */,
+				0034FBA620AC1547005EA8D5 /* MichiPlayerModel.swift in Sources */,
+				0034FBB020AC32FF005EA8D5 /* GoCollectionViewCell.swift in Sources */,
+				0034FBA820AC159E005EA8D5 /* MichiManager.swift in Sources */,
+				0034FBA220AC0B07005EA8D5 /* MainTabViewController.swift in Sources */,
+				0063EE8A20AC4585002DCC0F /* GoPlayers.swift in Sources */,
+				0034FBAE20AC32D7005EA8D5 /* GoCollectionViewController.swift in Sources */,
 				003F663620A5D2EA00FBA8E3 /* ViewController.swift in Sources */,
-				003F664B20A5D81600FBA8E3 /* MainNavigationController.swift in Sources */,
+				0034FBAA20AC178A005EA8D5 /* MichiViewController.swift in Sources */,
+				0034FB9C20ABFBFE005EA8D5 /* BlackjackCardModel.swift in Sources */,
 				003F663420A5D2EA00FBA8E3 /* AppDelegate.swift in Sources */,
+				0034FBAC20AC2FB9005EA8D5 /* GoViewController.swift in Sources */,
+				0034FB9E20ABFC73005EA8D5 /* BlackjackCardView.swift in Sources */,
+				0034FB9820ABFA9C005EA8D5 /* BlackjackViewController.swift in Sources */,
+				0034FB9A20ABFB21005EA8D5 /* BlackjackManager.swift in Sources */,
+				0034FBA420AC151C005EA8D5 /* MichiThemeModel.swift in Sources */,
+				0063EE8C20AC894A002DCC0F /* GoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
