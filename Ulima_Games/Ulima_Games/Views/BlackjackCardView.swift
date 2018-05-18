@@ -16,6 +16,7 @@ protocol onTapDelegate{
 
 class CardView: UIView {
     
+    
     var rank: String
     
     var suit: String
@@ -62,7 +63,6 @@ class CardView: UIView {
         }
     }
     
-    
     /// Funcion que inicalmente oculta los valores de las ViewCards
     ///
     /// - Parameter rect: CGRect
@@ -70,7 +70,6 @@ class CardView: UIView {
         numberTopLeft?.alpha = 0
         numberBottomRight?.alpha = 0
     }
-    
     
     /// show() muestra los valores de las cartas que son jugadas
     func show(){

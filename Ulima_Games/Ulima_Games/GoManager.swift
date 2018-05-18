@@ -17,7 +17,7 @@ class GoManager{
 
     let playerTwoValue: Int
     
-    let matriz: [[Int]]
+    var matriz: [[Int]]
     
     var arreglito : [[Int : Int]]
     
@@ -47,6 +47,8 @@ class GoManager{
     
     func calculatePoints(x:Int, y:Int, color:Int, arreglo:[[Int:Int]]){
         if (matriz[x][y] != color && matriz[x][y] != 0){
+            
+            print(arreglito)
             
             arreglito.append([x : y])
             
@@ -83,8 +85,8 @@ class GoManager{
         }
     }
     
-    func play(){
-        
+    func updateTable(x: Int, y: Int){
+        matriz[x][y] = player.turno
     }
     
     

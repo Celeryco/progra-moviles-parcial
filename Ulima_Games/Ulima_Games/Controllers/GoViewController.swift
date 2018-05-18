@@ -9,16 +9,22 @@
 import UIKit
 
 class GoViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, goOnTapDelegate {
-
+    
+    
+    @IBOutlet var collectionView: UICollectionView!
+    
     @IBOutlet var labelNegras: UILabel!
     
     @IBOutlet var labelBlancas: UILabel!
     
     var goManager: GoManager
     
+    var taps: Int
+    
     //Inicializacion de variables
     required init?(coder aDecoder: NSCoder) {
         self.goManager = GoManager()
+        self.taps = 0
         super.init(coder: aDecoder)
     }
     
@@ -57,15 +63,29 @@ class GoViewController: UIViewController, UICollectionViewDataSource, UICollecti
         return cell!
     }
     
-    func onTap(_ sender: UITapGestureRecognizer) {
-        changePlayer()
+    func getTotalTaps() -> Int {
+        print(taps)
+        return taps
     }
-
+    
     func getIconPlayer() -> String {
         let icon = goManager.player.simbolo
         return icon
     }
     
+    func updateTable(position_x: Int, position_y: Int) {
+        goManager.updateTable(x: position_x, y: position_y)
+        
+        goManager.calculatePoints(x: 0, y: 0, color: goManager.player.turno, arreglo: goManager.arreglito)
+        
+        print(goManager.arreglito)
+    }
+    
+    func onTap(_ sender: UITapGestureRecognizer) {
+        taps += 1
+        changePlayer()
+    }
+
     func changePlayer(){
         if goManager.player.turno == 1 {
             goManager.player.turno = 2
@@ -76,7 +96,6 @@ class GoViewController: UIViewController, UICollectionViewDataSource, UICollecti
         }
     }
     
-
     /*
     // MARK: - Navigation
 

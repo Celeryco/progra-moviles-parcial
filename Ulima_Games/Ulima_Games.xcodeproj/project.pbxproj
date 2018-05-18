@@ -18,7 +18,6 @@
 		0034FBA820AC159E005EA8D5 /* MichiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA720AC159E005EA8D5 /* MichiManager.swift */; };
 		0034FBAA20AC178A005EA8D5 /* MichiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBA920AC178A005EA8D5 /* MichiViewController.swift */; };
 		0034FBAC20AC2FB9005EA8D5 /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAB20AC2FB9005EA8D5 /* GoViewController.swift */; };
-		0034FBAE20AC32D7005EA8D5 /* GoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */; };
 		0034FBB020AC32FF005EA8D5 /* GoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */; };
 		003F663420A5D2EA00FBA8E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F663320A5D2EA00FBA8E3 /* AppDelegate.swift */; };
 		003F663620A5D2EA00FBA8E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F663520A5D2EA00FBA8E3 /* ViewController.swift */; };
@@ -42,7 +41,6 @@
 		0034FBA720AC159E005EA8D5 /* MichiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiManager.swift; sourceTree = "<group>"; };
 		0034FBA920AC178A005EA8D5 /* MichiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiViewController.swift; sourceTree = "<group>"; };
 		0034FBAB20AC2FB9005EA8D5 /* GoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
-		0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCollectionViewController.swift; sourceTree = "<group>"; };
 		0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCollectionViewCell.swift; sourceTree = "<group>"; };
 		003F663020A5D2EA00FBA8E3 /* Ulima_Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ulima_Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003F663320A5D2EA00FBA8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			children = (
 				0034FB9D20ABFC73005EA8D5 /* BlackjackCardView.swift */,
 				0034FB9F20ABFCC5005EA8D5 /* BlackjackCardView.xib */,
-				0034FBAD20AC32D7005EA8D5 /* GoCollectionViewController.swift */,
 				0034FBAF20AC32FF005EA8D5 /* GoCollectionViewCell.swift */,
 			);
 			path = Views;
@@ -214,7 +211,6 @@
 				0034FBA820AC159E005EA8D5 /* MichiManager.swift in Sources */,
 				0034FBA220AC0B07005EA8D5 /* MainTabViewController.swift in Sources */,
 				0063EE8A20AC4585002DCC0F /* GoPlayers.swift in Sources */,
-				0034FBAE20AC32D7005EA8D5 /* GoCollectionViewController.swift in Sources */,
 				003F663620A5D2EA00FBA8E3 /* ViewController.swift in Sources */,
 				0034FBAA20AC178A005EA8D5 /* MichiViewController.swift in Sources */,
 				0034FB9C20ABFBFE005EA8D5 /* BlackjackCardModel.swift in Sources */,

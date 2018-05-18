@@ -8,11 +8,33 @@
 import Foundation
 import UIKit
 
+//extension UIView {
+//    func fadeTransition(_ duration:CFTimeInterval) {
+//        let animation = CATransition()
+//        animation.timingFunction = CAMediaTimingFunction(name:
+//            kCAMediaTimingFunctionEaseInEaseOut)
+//        animation.type = kCATransitionFade
+//        animation.duration = duration
+//        layer.add(animation, forKey: kCATransitionFade)
+//    }
+//}
+
 class LoginViewController: UIViewController {
 
+    @IBOutlet var labelTitle: UILabel!
+    
+    @IBOutlet var labelSub: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        UIView.animate(withDuration: 2, delay: 0, options: .curveLinear, animations: {
+            self.labelTitle.alpha = 1
+        })
+        
+        UIView.animate(withDuration: 2, delay: 1, options: .curveLinear, animations: {
+            self.labelSub.alpha = 1
+        })
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +43,6 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    //TODO: Animate Label
     @IBOutlet weak var TextField: UITextField!
     
     @IBAction func loginTapped(_ sender: UIButton) {

@@ -11,6 +11,8 @@ import UIKit
 protocol goOnTapDelegate{
     func onTap(_ sender: UITapGestureRecognizer)
     func getIconPlayer() -> String
+    func getTotalTaps() -> Int
+    func updateTable(position_x: Int, position_y:Int)
 }
 
 class GoCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDelegate {
@@ -27,7 +29,7 @@ class GoCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDelegate {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
+                
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.onTap(_:)))
         
         self.addGestureRecognizer(tap)
@@ -36,20 +38,33 @@ class GoCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDelegate {
     
     @objc private func onTap(_ gestureRecognizer : UIGestureRecognizer) {
         if let delegate = goOnTapDelegate{
-            let playerIcon = delegate.getIconPlayer()
-              if (!played) {
-                print("Row: \(row) Column: \(column)" )
-                show(icon: playerIcon)
-                delegate.onTap(gestureRecognizer as! UITapGestureRecognizer)
-              }
+            let taps = delegate.getTotalTaps()
+            if (taps == 80){
+                
+            }else{
+                let playerIcon = delegate.getIconPlayer()
+                
+                if (!played) {
+                    print("Row: \(row) Column: \(column)" )
+                    show(icon: playerIcon)
+                    
+                    delegate.updateTable(position_x: row, position_y: column)
+                    
+                    delegate.onTap(gestureRecognizer as! UITapGestureRecognizer)
+                }
+            }
         }
     }
     
-    /// show() muestra los valores de las cartas que son jugadas
     func show(icon: String){
-        //TODO: FALTA ANIMACIONES
         self.bringSubview(toFront: ficha)
+        
         ficha.text = icon
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            self.ficha.alpha = 1
+        })
+        
         played = true
     }
 }

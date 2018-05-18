@@ -26,13 +26,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ulima_Games/Controllers/GoViewController.swift"
-            timestampString = "548221487.198542"
+            timestampString = "548312827.449157"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "getIconPlayer()"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "changePlayer()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ulima_Games/Controllers/LoginViewController.swift"
+            timestampString = "548313294.615617"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ulima_Games.LoginViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Ulima_Games"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eroscampos/Documents/Universidad/Ciclo%202018-I/Programacion%20Movil/Parcial/Ulima_Games/Ulima_Games/Controllers/LoginViewController.swift"
+                  timestampString = "548311901.840631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Ulima_Games.LoginViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Ulima_Games"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eroscampos/Documents/Universidad/Ciclo%202018-I/Programacion%20Movil/Parcial/Ulima_Games/Ulima_Games/Controllers/LoginViewController.swift"
+                  timestampString = "548311901.853817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
